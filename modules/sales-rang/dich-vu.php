@@ -5,8 +5,9 @@
                 <?php require('../../sidebar.php'); ?>
                 <div class="uk-width-1-1 uk-width-expand@m">
                     <article class="uk-article">
-                        <h1 class="uk-article-title">Trang chủ</h1>
-                        <p class="uk-text-lead uk-text-muted">Hiển thị thông tin chung của các cơ sở.</p>
+                        <h1 class="uk-article-title">Dịch Vụ</h1>
+                        <p class="uk-text-lead uk-text-muted">Thao tác thông tin dịch vụ của các cơ sở đồng bộ với
+                            App.</p>
                         <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
                             <img class="uk-border-circle avatar" src="https://via.placeholder.com/80"
                                  alt="Sara Galen">
