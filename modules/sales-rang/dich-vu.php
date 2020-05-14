@@ -5,7 +5,7 @@
                 <?php require('../../sidebar.php'); ?>
                 <div class="uk-width-1-1 uk-width-expand@m">
                     <article class="uk-article">
-                        <h1 class="uk-article-title">Dịch Vụ Tesst</h1>
+                        <h1 class="uk-article-title">Dịch Vụ test</h1>
                         <p class="uk-text-lead uk-text-muted">Thao tác thông tin dịch vụ của các cơ sở đồng bộ với
                             App.</p>
                         <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
