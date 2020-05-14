@@ -1,0 +1,6 @@
+pipelines:
+  branches:
+    master:
+      - step:
+          script:
+            - ssh dashboard@165.22.244.9 -p 1986 'cd ~/faq_html && git pull origin master'
