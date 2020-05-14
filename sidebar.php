@@ -3,87 +3,88 @@
         <h5>Trang Chủ</h5>
         <ul class="uk-nav uk-nav-default doc-nav">
             <li class="uk-active"><a href="<?php echo $home_url ?>trangchu.php">Trang chủ</a></li>
+            <li class="uk-active"><a href="<?php echo $home_url ?>user_profile.php">Trang cá nhân</a></li>
         </ul>
-        <h5>Sales Răng</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/sales-rang/man-hinh-tu-van.php">Màn Hình Tư Vấn</a></li>
-            <li><a href="<?php echo $home_url ?>modules/sales-rang/tinh-trang-rang.php">Tình Trạng Răng</a></li>
-            <li><a href="<?php echo $home_url ?>modules/sales-rang/ky-thuat.php">Kỹ Thuật</a></li>
-            <li><a href="<?php echo $home_url ?>modules/sales-rang/do-tuoi.php">Độ Tuổi</a></li>
-            <li><a href="<?php echo $home_url ?>modules/sales-rang/lua-chon.php">Lựa Chọn</a></li>
-            <li><a href="<?php echo $home_url ?>modules/sales-rang/dich-vu.php">Dịch Vụ</a></li>
-        </ul>
-        <h5>Direct Sale</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/direct-sale/khach-hang.php">Khách Hàng</a></li>
-            <li><a href="<?php echo $home_url ?>modules/direct-sale/nhac-lich">Nhắc Lịch</a></li>
-        </ul>
-        <h5>Helper</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/helper/helper.php">Helper</a></li>
-            <li><a href="<?php echo $home_url ?>modules/helper/tim-link-face.php">Tìm Link Face</a></li>
-            <li><a href="<?php echo $home_url ?>modules/helper/del-customer.php">Del Customer</a></li>
-            <li><a href="<?php echo $home_url ?>modules/helper/pancake-label.php">Pancake Label</a></li>
-            <li><a href="<?php echo $home_url ?>modules/helper/gui-tin-nhan.php">Gửi Tin Nhắn</a></li>
-            <li><a href="<?php echo $home_url ?>modules/helper/cache.php">Cache</a></li>
-            <li><a href="<?php echo $home_url ?>modules/helper/console.php">Console</a></li>
-        </ul>
-        <h5>App Myauris</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/app-myauris/nd-tu-van.php">Nội Dung Tư Vấn</a></li>
-            <li><a href="<?php echo $home_url ?>modules/app-myauris/goi-y-giai-phap.php">Gợi Ý Giải Pháp</a></li>
-            <li><a href="<?php echo $home_url ?>modules/app-myauris/app-customer-log.php">App Customer Log</a></li>
-        </ul>
-        <h5>Bác Sĩ</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/bac-si/bac-si.php">Bác Sĩ</a></li>
-        </ul>
-        <h5>Quản Lý KH</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/quan-ly-kh/quan-ly-kh.php">Quản Lý KH</a></li>
-        </ul>
-        <h5>Social</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/social/export-data.php">Export Data</a></li>
-            <li><a href="<?php echo $home_url ?>modules/social/phan-tich-kh.php">Phân Tích KH</a></li>
-        </ul>
-        <h5>Test A/B</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/test-a-b/chien-dich.php">Chiến Dịch</a></li>
-            <li><a href="<?php echo $home_url ?>modules/test-a-b/phan-tich-kh.php">Phân Tích KH</a></li>
-        </ul>
-        <h5>Báo Cáo</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/bao-cao/chay-ads-face.php">Chạy Ads Face</a></li>
-            <li><a href="<?php echo $home_url ?>modules/bao-cao/bieu-do-facebook.php">Biểu Đồ Facebook</a></li>
-            <li><a href="<?php echo $home_url ?>modules/bao-cao/chay-adsword.php">Chạy Adsword</a></li>
-            <li><a href="<?php echo $home_url ?>modules/bao-cao/bieu-do-adsword.php">Biểu Đồ Adsword</a></li>
-            <li><a href="<?php echo $home_url ?>modules/bao-cao/o-overview.php">O-Overview</a></li>
-            <li><a href="<?php echo $home_url ?>modules/bao-cao/o-hieu-suat.php">O- Hiệu Suất</a></li>
-            <li><a href="<?php echo $home_url ?>modules/bao-cao/bc-tong-hop.php">BC Tổng Hợp</a></li>
-        </ul>
-        <h5>Report</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/report/nhan-khau-hoc.php">Nhân Khẩu Học</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/doanh-thu.php">Doanh Thu</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/khach-hang-fail.php">Khách Hàng Fail</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/dia-ly.php">Địa Lý</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/lich-moi.php">Lịch Mới</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/lich-hen.php">Lịch Hẹn</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/khach-den.php">Khách Đến</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/ly-do-khach-khong-den.php">Lý Do Khách Không Đến</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/khach-chot.php">Khách Chốt</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/ly-do-chot-fail.php">Lý Do Chốt Fail</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/dich-vu.php">Dịch Vụ</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/san-pham.php">Sản Phẩm</a></li>
-            <li><a href="<?php echo $home_url ?>modules/report/tuong-tac.php">Tương Tác</a></li>
-        </ul>
+<!--        <h5>Sales Răng</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/sales-rang/man-hinh-tu-van.php">Màn Hình Tư Vấn</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/sales-rang/tinh-trang-rang.php">Tình Trạng Răng</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/sales-rang/ky-thuat.php">Kỹ Thuật</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/sales-rang/do-tuoi.php">Độ Tuổi</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/sales-rang/lua-chon.php">Lựa Chọn</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/sales-rang/dich-vu.php">Dịch Vụ</a></li>-->
+<!--        </ul>-->
+<!--        <h5>Direct Sale</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/direct-sale/khach-hang.php">Khách Hàng</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/direct-sale/nhac-lich">Nhắc Lịch</a></li>-->
+<!--        </ul>-->
+<!--        <h5>Helper</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/helper/helper.php">Helper</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/helper/tim-link-face.php">Tìm Link Face</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/helper/del-customer.php">Del Customer</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/helper/pancake-label.php">Pancake Label</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/helper/gui-tin-nhan.php">Gửi Tin Nhắn</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/helper/cache.php">Cache</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/helper/console.php">Console</a></li>-->
+<!--        </ul>-->
+<!--        <h5>App Myauris</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/app-myauris/nd-tu-van.php">Nội Dung Tư Vấn</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/app-myauris/goi-y-giai-phap.php">Gợi Ý Giải Pháp</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/app-myauris/app-customer-log.php">App Customer Log</a></li>-->
+<!--        </ul>-->
+<!--        <h5>Bác Sĩ</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/bac-si/bac-si.php">Bác Sĩ</a></li>-->
+<!--        </ul>-->
+<!--        <h5>Quản Lý KH</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/quan-ly-kh/quan-ly-kh.php">Quản Lý KH</a></li>-->
+<!--        </ul>-->
+<!--        <h5>Social</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/social/export-data.php">Export Data</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/social/phan-tich-kh.php">Phân Tích KH</a></li>-->
+<!--        </ul>-->
+<!--        <h5>Test A/B</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/test-a-b/chien-dich.php">Chiến Dịch</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/test-a-b/phan-tich-kh.php">Phân Tích KH</a></li>-->
+<!--        </ul>-->
+<!--        <h5>Báo Cáo</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/bao-cao/chay-ads-face.php">Chạy Ads Face</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/bao-cao/bieu-do-facebook.php">Biểu Đồ Facebook</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/bao-cao/chay-adsword.php">Chạy Adsword</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/bao-cao/bieu-do-adsword.php">Biểu Đồ Adsword</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/bao-cao/o-overview.php">O-Overview</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/bao-cao/o-hieu-suat.php">O- Hiệu Suất</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/bao-cao/bc-tong-hop.php">BC Tổng Hợp</a></li>-->
+<!--        </ul>-->
+<!--        <h5>Report</h5>-->
+<!--        <ul class="uk-nav uk-nav-default doc-nav">-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/nhan-khau-hoc.php">Nhân Khẩu Học</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/doanh-thu.php">Doanh Thu</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/khach-hang-fail.php">Khách Hàng Fail</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/dia-ly.php">Địa Lý</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/lich-moi.php">Lịch Mới</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/lich-hen.php">Lịch Hẹn</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/khach-den.php">Khách Đến</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/ly-do-khach-khong-den.php">Lý Do Khách Không Đến</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/khach-chot.php">Khách Chốt</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/ly-do-chot-fail.php">Lý Do Chốt Fail</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/dich-vu.php">Dịch Vụ</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/san-pham.php">Sản Phẩm</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/report/tuong-tac.php">Tương Tác</a></li>-->
+<!--        </ul>-->
         <h5>Screen</h5>
         <ul class="uk-nav uk-nav-default doc-nav">
             <li><a href="<?php echo $home_url ?>modules/screen/online.php">Online</a></li>
-            <li><a href="<?php echo $home_url ?>modules/screen/phong-kham.php">Phòng Khám</a></li>
-            <li><a href="<?php echo $home_url ?>modules/screen/canh-bao.php">Cảnh Báo</a></li>
-            <li><a href="<?php echo $home_url ?>modules/screen/danh-gia.php">Đánh Giá</a></li>
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/screen/phong-kham.php">Phòng Khám</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/screen/canh-bao.php">Cảnh Báo</a></li>-->
+<!--            <li><a href="--><?php //echo $home_url ?><!--modules/screen/danh-gia.php">Đánh Giá</a></li>-->
         </ul>
         <h5>Chi</h5>
         <ul class="uk-nav uk-nav-default doc-nav">
@@ -91,21 +92,6 @@
             <li><a href="<?php echo $home_url ?>modules/chi/nhom-chi.php">Nhóm Chi</a></li>
             <li><a href="<?php echo $home_url ?>modules/chi/khoan-chi.php">Khoản Chi</a></li>
             <li><a href="<?php echo $home_url ?>modules/chi/de-xuat-chi.php">Đề Xuất Chi</a></li>
-        </ul>
-        <h5>Phòng Khám</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/chup-hinh.php">Chụp Hình</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/lich-hen.php">Lịch Hẹn</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/khach-hang.php">Khách Hàng</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/don-hang.php">Đơn Hàng</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/lich-dieu-tri.php">Lịch Điều Trị</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/thanh-toan.php">Thanh Toán</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/hoan-coc.php">Hoàn Cọc</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/san-pham.php">Sản Phẩm</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/dich-vu.php">Dịch Vụ</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/khuyen-mai.php">Khuyến Mãi</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/loai-thanh-toan.php">Loại Thanh Toán</a></li>
-            <li><a href="<?php echo $home_url ?>modules/phong-kham/loai-chup-hinh.php">Loại Chụp Hình</a></li>
         </ul>
         <h5>Online</h5>
         <ul class="uk-nav uk-nav-default doc-nav">
@@ -127,6 +113,22 @@
             <li><a href="<?php echo $home_url ?>modules/online/trang-thai-dat-hen.php">Trạng Thái Đặt Hẹn</a></li>
             <li><a href="<?php echo $home_url ?>modules/online/trang-thai-khach-den.php">Trạng Thái Khách Đến</a></li>
         </ul>
+        <h5>Phòng Khám</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/chup-hinh.php">Chụp Hình</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/lich-hen.php">Lịch Hẹn</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/khach-hang.php">Khách Hàng</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/don-hang.php">Đơn Hàng</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/lich-dieu-tri.php">Lịch Điều Trị</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/thanh-toan.php">Thanh Toán</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/hoan-coc.php">Hoàn Cọc</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/san-pham.php">Sản Phẩm</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/dich-vu.php">Dịch Vụ</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/khuyen-mai.php">Khuyến Mãi</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/loai-thanh-toan.php">Loại Thanh Toán</a></li>
+            <li><a href="<?php echo $home_url ?>modules/phong-kham/loai-chup-hinh.php">Loại Chụp Hình</a></li>
+        </ul>
+
         <h5>Lịch Khám</h5>
         <ul class="uk-nav uk-nav-default doc-nav">
             <li><a href="<?php echo $home_url ?>modules/lich-kham/thoi-gian-lam-viec.php">Thời Gian Làm Việc</a></li>

@@ -1,12 +1,12 @@
-<?php require('header.php'); ?>
+<?php require('../../header.php'); ?>
     <div class="uk-section">
         <div class="uk-container">
             <div class="uk-grid-large" data-uk-grid>
-                <?php require_once('sidebar.php'); ?>
+                <?php require('../../sidebar.php'); ?>
                 <div class="uk-width-1-1 uk-width-expand@m">
                     <article class="uk-article">
-                        <h1 class="uk-article-title">Trang chủ</h1>
-                        <p class="uk-text-lead uk-text-muted">Hiển thị thông tin chung của các cơ sở.</p>
+                        <h1 class="uk-article-title">Screen Online</h1>
+                        <p class="uk-text-lead uk-text-muted">Hiển thị thông tin cập nhật liên tục trong ngày.</p>
                         <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
                             <img class="uk-border-circle avatar" src="https://via.placeholder.com/80"
                                  alt="Sara Galen">
@@ -18,9 +18,9 @@
                         </div>
                         <div class="article-content link-primary">
                             <figure data-uk-lightbox="animation: slide">
-                                <a class="uk-inline" href="modules/images/trangchu.png"
+                                <a class="uk-inline" href="<?php echo $home_url ?>modules/images/screen-online/screen-online.png"
                                    data-caption="Trang chủ">
-                                    <img src="modules/images/trangchu.png" alt="Trang chủ">
+                                    <img src="<?php echo $home_url ?>modules/images/screen-online/screen-online.png" alt="Trang chủ">
                                     <div class="uk-position-center">
                                         <span data-uk-overlay-icon></span>
                                     </div>
@@ -29,42 +29,33 @@
                                             class="uk-width-auto uk-first-column">Hình ảnh trang chủ</span></figcaption>
                             </figure>
                             <ol>
-                                <li>Hiển thị cho sales online số khách cần được chăm sóc trong tuần qua.</li>
-                                <li>Khách hàng mới được thêm vào hệ thống trong tháng.</li>
-                                <li>Lịch hẹn mới trong tháng.</li>
-                                <li>Khách hàng đến trong tháng.</li>
-                                <li>Số khách đồng ý làm trong tháng.</li>
-                                <li>So sánh lịch hẹn theo ngày của tháng hiện tại với tháng trước.</li>
-                                <li><!--TODO::(Check lại range)-->Khách hàng mới trong tuần.</li>
-                                <li>10 khách vừa đến gần nhất.</li>
-                                <li>Hoạt động gần đây của sales online, directsale, lễ tân thao tác: Cập nhật khách
-                                    hàng,
-                                    lịch hẹn, lịch điều trị.
-                                </li>
-                                <li><!--TODO::(Check lại range)-->Tỉ lệ đến theo tỉnh thành.</li>
+                                <li>Lịch hẹn, Tổng lịch, Dịch vụ làm.</li>
+                                <li>Hoạt động gần đây.</li>
+                                <li>Thông tin lịch hẹn khách đến các cơ sở.</li>
                             </ol>
 
-                            <hr class="uk-margin-medium">
-                            <div class="uk-margin-large-top paginate-post">
-                                <div class="uk-child-width-expand@s uk-grid-large" data-uk-grid>
-                                    <div>
-                                    </div>
-                                    <div>
-                                        <div class="uk-text-right"><a class="remove-underline hvr-forward"
-                                                                      href="doc.html">Next
-                                                →</a></div>
-                                    </div>
+                        <hr class="uk-margin-medium">
+                        <div class="uk-margin-large-top paginate-post">
+                            <div class="uk-child-width-expand@s uk-grid-large" data-uk-grid>
+                                <div>
+                                </div>
+                                <div>
+                                    <h5>Basic theme setup</h5>
+                                    <div class="uk-text-right"><a class="remove-underline hvr-forward"
+                                                                  href="doc.html">Next
+                                            →</a></div>
                                 </div>
                             </div>
-                            <div class="uk-margin-large-top">
-                                <h3>Related Docs</h3>
-                                <ul class="uk-list link-secondary">
-                                    <li><a href="doc.html">Creating a changelog</a></li>
-                                    <li><a href="doc.html">Contact form</a></li>
-                                    <li><a href="doc.html">Creating docs posts</a></li>
-                                    <li><a href="doc.html">Footer options</a></li>
-                                </ul>
-                            </div>
+                        </div>
+                        <div class="uk-margin-large-top">
+                            <h3>Related Docs</h3>
+                            <ul class="uk-list link-secondary">
+                                <li><a href="doc.html">Creating a changelog</a></li>
+                                <li><a href="doc.html">Contact form</a></li>
+                                <li><a href="doc.html">Creating docs posts</a></li>
+                                <li><a href="doc.html">Footer options</a></li>
+                            </ul>
+                        </div>
                     </article>
                 </div>
             </div>
@@ -151,4 +142,4 @@
             </div>
         </div>
     </div>
-<?php require('footer.php') ?>
+<?php require('../../footer.php') ?>
